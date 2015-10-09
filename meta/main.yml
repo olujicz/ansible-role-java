@@ -1,0 +1,12 @@
+---
+galaxy_info:
+  author: Zoran Olujic
+  description: Ansible role to install java
+  license: GPLv3
+  platforms:
+  - name: Debian
+    versions:
+    - wheezy
+  categories:
+  - development
+dependencies: []

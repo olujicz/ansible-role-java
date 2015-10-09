@@ -1,0 +1,10 @@
+---
+- name: add key for java repository
+  apt_key:
+    keyserver="keyserver.ubuntu.com"
+    id="EEA14886"
+  sudo: yes
+
+- name: add ppa repository for java
+  apt_repository: repo='deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main' state=present
+  sudo: yes
