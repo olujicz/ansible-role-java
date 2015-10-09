@@ -12,5 +12,5 @@ Example Playbook
 ----------------
 
     - hosts: servers
-        roles:
-            - { role: olujicz.java }
+      roles:
+        - { role: olujicz.java }
